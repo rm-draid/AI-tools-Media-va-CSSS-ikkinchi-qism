@@ -1,0 +1,55 @@
+.container {
+  background: #302c42;
+}
+.container_new {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/*button uchun */
+.btn {
+  padding: 10px 34px;
+  border-radius: 20px;
+  background: fixed;
+  transition: 1s;
+  color: white;
+  border: 0.2px solid silver;
+}
+
+.btn:hover {
+  background: #1e88e5;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #1e88e5;
+}
+
+img {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+.get_in_touch {
+  background: #c0b7e8;
+}
+
+.try_now {
+  padding: 16px 39px;
+  border-radius: 40px;
+  background: #8176af;
+  border: none;
+  margin-top: 40px;
+}
+
+.your_world {
+  margin: 38px 20px;
+}

@@ -1,0 +1,416 @@
+/*defol holatagi narsa uchun*/
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition: 1s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+/*rang uchun*/
+/*defol holatagi narsa uchun*/
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition: 1s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  background: #302c42;
+}
+
+.container_new {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/*button uchun */
+.btn {
+  padding: 10px 34px;
+  border-radius: 20px;
+  background: fixed;
+  transition: 1s;
+  color: white;
+  border: 0.2px solid silver;
+}
+
+.btn:hover {
+  background: #1e88e5;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #1e88e5;
+}
+
+img {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+.get_in_touch {
+  background: #c0b7e8;
+}
+
+.try_now {
+  padding: 16px 39px;
+  border-radius: 40px;
+  background: #8176af;
+  border: none;
+  margin-top: 40px;
+}
+
+.your_world {
+  margin: 38px 20px;
+}
+
+/*html stil uchun asosiy*/
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  gap: 20px;
+}
+
+.hamburger {
+  display: none;
+}
+
+/*----------------------YANGI SECTION-------------------------*/
+.lorem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 80px;
+  color: white;
+}
+
+.strelka {
+  display: flex;
+  margin-top: 60px;
+}
+
+.strelka_new {
+  width: 50px;
+  height: 50px;
+}
+
+/*----------------------YANGI SECTION-------------------------*/
+.pay_us_visit {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 349px;
+  height: 109px;
+  border-radius: 50px;
+  background: #211e2e;
+  padding: 30px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 349px;
+  height: 109px;
+  border-radius: 50px;
+  background: #211e2e;
+  padding: 30px;
+}
+
+.shape {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 349px;
+  height: 109px;
+  border-radius: 50px;
+  background: #211e2e;
+  padding: 50px;
+}
+
+.call_new {
+  width: 60px;
+  height: 60px;
+}
+
+/*----------------------YANGI SECTION-------------------------*/
+.vitae_sapien {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  padding-top: 120px;
+}
+
+.introduction {
+  display: flex;
+}
+
+.component_new {
+  width: 228px;
+  height: 100px;
+}
+
+.eget_proin {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 150px;
+}
+
+.iron_man {
+  width: 524px;
+  height: 557px;
+}
+
+.iron_man_new {
+  width: 100%;
+  height: auto;
+  transition: 2s;
+}
+
+.iron_man_new:hover {
+  transform: rotate(360deg);
+}
+
+/*----------------------YANGI SECTION-------------------------*/
+.simulation_new {
+  width: 219px;
+  height: 219px;
+}
+
+.simulation {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.porttitor_rhoncus {
+  background: #211e2e;
+  padding: 30px;
+  border-radius: 80px;
+}
+
+/*----------------------YANGI SECTION-------------------------*/
+.TECHNOLOGIES {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unreal {
+  width: 174px;
+  height: 174px;
+}
+
+.game_new {
+  width: 252px;
+  height: 252px;
+}
+
+/*----------------------YANGI SECTION-------------------------*/
+.form-container {
+  text-align: center;
+  background: #211e2e;
+  padding: 80px;
+  color: white;
+  border-radius: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-row {
+  display: flex;
+  gap: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #8f8ca2;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+}
+
+/*----------------------YANGI SECTION-------------------------*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  color: white;
+}
+
+.join_hydra {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.drinking_networks {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+}
+
+.drinking_networks_new {
+  padding-top: 10px;
+}
+
+/*tilifon uchun stil*/
+@media (max-width: 570px) {
+  .container {
+    width: 90%;
+  }
+  img {
+    width: 90%;
+  }
+  .link {
+    display: none;
+  }
+  .btn_new {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .BUILD_YOUR_WORLD {
+    display: none;
+  }
+  .strelka_new {
+    display: none;
+  }
+  .btn {
+    width: 100%;
+  }
+  .component_new {
+    display: none;
+  }
+  .to_hydra {
+    display: none;
+  }
+  .to_hydra {
+    display: none;
+  }
+  br {
+    display: none;
+  }
+  .h_new {
+    display: none;
+  }
+  .woman {
+    width: 460px;
+    height: 400px;
+  }
+  .lorem {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .pay_us_visit {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .vitae_sapien {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 29px;
+  }
+  .eget_proin {
+    display: flex;
+    flex-direction: column;
+  }
+  .iron_man_new {
+    width: 90%;
+  }
+  .Eget_mi_proin {
+    text-align: center;
+  }
+  .introduction {
+    text-align: center;
+  }
+  .simulation {
+    display: flex;
+    flex-direction: column;
+  }
+  .game {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .join_hydra {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}/*# sourceMappingURL=main.css.map */

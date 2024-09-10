@@ -1,0 +1,214 @@
+/*html stil uchun asosiy*/
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  gap: 20px;
+}
+.hamburger {
+  display: none;
+}
+/*----------------------YANGI SECTION-------------------------*/
+
+.lorem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 80px;
+  color: white;
+}
+
+.strelka {
+  display: flex;
+  margin-top: 60px;
+}
+
+.strelka_new {
+  width: 50px;
+  height: 50px;
+}
+/*----------------------YANGI SECTION-------------------------*/
+.pay_us_visit {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 349px;
+  height: 109px;
+  border-radius: 50px;
+  background: #211e2e;
+  padding: 30px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 349px;
+  height: 109px;
+  border-radius: 50px;
+  background: #211e2e;
+  padding: 30px;
+}
+
+.shape {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 349px;
+  height: 109px;
+  border-radius: 50px;
+  background: #211e2e;
+  padding: 50px;
+}
+
+.call_new {
+  width: 60px;
+  height: 60px;
+}
+/*----------------------YANGI SECTION-------------------------*/
+.vitae_sapien {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  padding-top: 120px;
+}
+
+.introduction {
+  display: flex;
+}
+
+.component_new {
+  width: 228px;
+  height: 100px;
+}
+
+.eget_proin {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 150px;
+}
+
+.iron_man {
+  width: 524px;
+  height: 557px;
+}
+
+.iron_man_new {
+  width: 100%;
+  height: auto;
+  transition: 2s;
+}
+
+.iron_man_new:hover {
+  transform: rotate(360deg);
+}
+/*----------------------YANGI SECTION-------------------------*/
+.simulation_new {
+  width: 219px;
+  height: 219px;
+}
+
+.simulation {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.porttitor_rhoncus {
+  background: #211e2e;
+  padding: 30px;
+  border-radius: 80px;
+}
+/*----------------------YANGI SECTION-------------------------*/
+.TECHNOLOGIES {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unreal {
+  width: 174px;
+  height: 174px;
+}
+
+.game_new {
+  width: 252px;
+  height: 252px;
+}
+
+/*----------------------YANGI SECTION-------------------------*/
+
+.form-container {
+  text-align: center;
+  background: #211e2e;
+  padding: 80px;
+  color: white;
+  border-radius: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-row {
+  display: flex;
+  gap: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #8f8ca2;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+}
+
+/*----------------------YANGI SECTION-------------------------*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  color: white;
+}
+
+.join_hydra {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.drinking_networks {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+}
+
+.drinking_networks_new {
+  padding-top: 10px;
+}
